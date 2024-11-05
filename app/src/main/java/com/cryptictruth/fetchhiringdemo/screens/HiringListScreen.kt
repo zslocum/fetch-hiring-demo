@@ -1,5 +1,6 @@
 package com.cryptictruth.fetchhiringdemo.screens
 
+import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -62,7 +63,8 @@ fun HiringListScreen(viewModel: HiringViewModel, modifier: Modifier) {
                     .heightIn(max = 400.dp)
                     .width(340.dp)
                     .padding(15.dp)
-                    .clickable { expanded = !expanded },
+                    .clickable { expanded = !expanded }
+                    .animateContentSize(),
                 verticalArrangement = Arrangement.spacedBy(15.dp, Alignment.CenterVertically)
             ) {
                 Row (
