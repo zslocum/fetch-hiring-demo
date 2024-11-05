@@ -12,7 +12,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import com.cryptictruth.fetchhiringdemo.screens.HiringListScreen
 import com.cryptictruth.fetchhiringdemo.ui.theme.FetchHiringDemoTheme
 import com.cryptictruth.fetchhiringdemo.viewmodels.HiringViewModel
